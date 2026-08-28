@@ -111,7 +111,7 @@ export async function summarizeMeeting(notes: string): Promise<MeetingOutput> {
 
   const summary =
     `This meeting covered ${lines.length} discussion points.\n\n` +
-    (key.length ? key.join("\n") : `• ${titleCase(lines[0])}.`);
+    `• ${titleCase(lines[0] ?? "")}.`);
 
   const fmt = (items: string[], empty: string) =>
     items.length

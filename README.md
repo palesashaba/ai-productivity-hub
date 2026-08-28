@@ -1,304 +1,103 @@
-# AI Productivity Hub
+# 🤖 AI Workplace Productivity Assistant
 
-Create a modern, responsive SaaS web application called AI Workplace Productivity Assistant.
+## 📋 Project Overview
 
+**AI Workplace Productivity Assistant** is a modern, responsive SaaS-style web application designed to help professionals improve workplace productivity using AI.
 
+The application provides three main productivity tools:
 
-Build this as a frontend-only application. Do not create a backend, database, authentication, login, registration, user accounts, or subscription/payment system. Keep it lightweight and suitable for a free Lovable account.
+- 📧 Smart Email Generator
+- 📝 Meeting Notes Summarizer
+- 📅 AI Task Planner / Scheduler
 
+The application is **frontend-only** and does not require user login, registration, a backend, or a database.
 
+## ✨ Features Implemented
 
-Design
+### 📧 1. Smart Email Generator
 
+- Generate professional workplace emails.
+- Choose between three tones:
+  - 🏢 Formal
+  - 😊 Friendly
+  - 🎯 Persuasive
+- Enter the email purpose, recipient, and important points.
+- Generate professional and structured email content.
+- ✏️ Edit generated email content.
+- 📋 Copy generated emails.
+- 🔄 Regenerate email content.
+- 🗑️ Clear the generated email.
 
+### 📝 2. Meeting Notes Summarizer
 
-Create a clean, modern, professional SaaS dashboard using:
+- Paste or enter lengthy meeting notes.
+- Generate a concise meeting summary.
+- Extract important information from meeting notes.
+- Identify:
+  - ✅ Action Items
+  - 💡 Decisions
+  - ⏰ Deadlines
+- ✏️ Edit generated summaries and extracted information.
+- 📋 Copy results.
+- 🔄 Regenerate results.
+- 🗑️ Clear meeting notes and results.
 
+### 📅 3. AI Task Planner / Scheduler
 
+- Enter workplace tasks.
+- 📆 Generate daily schedules.
+- 🗓️ Generate weekly schedules.
+- ⭐ Prioritize tasks based on importance and deadlines.
+- 📊 Organize tasks into a clear schedule.
+- ⏰ Display task time, priority, deadline, and estimated duration.
+- ✏️ Edit generated schedules and tasks.
 
-- Light blue and dark navy/charcoal as the main colours
+### 🖥️ 4. Modern Dashboard
 
-- White/light backgrounds
+- ✨ Clean and professional SaaS-style dashboard.
+- 📂 Sidebar navigation.
+- 📱 Responsive design.
+- 💻 Works on desktop, tablet, and mobile devices.
+- 🎨 Light blue and dark professional colour scheme.
+- 🃏 Modern cards and buttons.
+- 🧭 Clear navigation between productivity tools.
+- 👍 User-friendly interface.
 
-- Modern typography
+### ✏️ 5. Editable AI Outputs
 
-- Rounded cards and buttons
+All generated AI content can be reviewed and edited by the user before it is used.
 
-- Clean spacing and subtle shadows
+Users can modify:
 
-- Professional icons
+- 📧 Generated emails
+- 📝 Meeting summaries
+- ✅ Action items
+- 💡 Decisions
+- ⏰ Deadlines
+- 📅 Task schedules
 
-- Fully responsive layout for desktop, tablet, and mobile
+### 🛡️ 6. Responsible AI Disclaimer
 
+The application includes a Responsible AI disclaimer to remind users that AI-generated information should be reviewed and verified before being used.
 
+## 🛠️ Technologies and Tools Used
 
-Navigation
+- 💙 **Lovable** – Used to build and develop the web application.
+- ⚛️ **React** – Used for building the frontend user interface.
+- 📘 **TypeScript** – Used for application development and type safety.
+- 🎨 **Tailwind CSS** – Used for responsive styling and modern UI design.
+- 🤖 **AI Prompting** – Used to create structured prompts for workplace productivity tasks.
+- 🐙 **GitHub** – Used for source code version control and project management.
 
+## 🚀 Setup Instructions
 
+### 1️⃣ Open the Project
 
-Create a left sidebar with:
+Open the project in Lovable or clone the project repository from GitHub.
 
+### 2️⃣ Install Dependencies
 
+If running the project locally, install the required dependencies:
 
-- Dashboard
-
-- Smart Email Generator
-
-- Meeting Notes Summarizer
-
-- AI Task Planner
-
-- Settings
-
-
-
-On mobile, make the sidebar collapsible.
-
-
-
-Dashboard
-
-
-
-Create a welcoming dashboard showing:
-
-
-
-- "AI Workplace Productivity Assistant"
-
-- Short description: "Work smarter, communicate better, and organise your day with AI."
-
-- Three main feature cards:
-
-  1. Smart Email Generator
-
-  2. Meeting Notes Summarizer
-
-  3. AI Task Planner
-
-- Quick-action buttons to open each tool.
-
-- A small Responsible AI notice.
-
-
-
-1. Smart Email Generator
-
-
-
-Create an interface where the user can enter:
-
-
-
-- Email purpose/topic
-
-- Recipient
-
-- Important points
-
-- Optional subject
-
-
-
-Provide tone selection:
-
-
-
-- Formal
-
-- Friendly
-
-- Persuasive
-
-
-
-Include a Generate Email button.
-
-
-
-Display the generated email in an editable text area/card with:
-
-
-
-- Subject
-
-- Email body
-
-- Copy button
-
-- Regenerate button
-
-- Clear button
-
-
-
-Use a structured AI prompt internally so the generated email is professional, clear, concise, and appropriate for the selected tone.
-
-
-
-2. Meeting Notes Summarizer
-
-
-
-Create an input area where users can paste or type lengthy meeting notes.
-
-
-
-Include a Summarize Meeting button.
-
-
-
-Display results in separate editable sections:
-
-
-
-- Meeting Summary
-
-- Action Items
-
-- Decisions
-
-- Deadlines
-
-
-
-Include:
-
-
-
-- Copy button
-
-- Regenerate button
-
-- Clear button
-
-
-
-Use a structured AI prompt that identifies important information without inventing details that are not present in the meeting notes.
-
-
-
-3. AI Task Planner
-
-
-
-Allow users to enter their tasks and optionally provide:
-
-
-
-- Task name
-
-- Priority
-
-- Deadline
-
-- Estimated duration
-
-
-
-Allow the user to choose:
-
-
-
-- Daily Schedule
-
-- Weekly Schedule
-
-
-
-Include a Generate Schedule button.
-
-
-
-Display the generated plan as an attractive schedule/task list with:
-
-
-
-- Time
-
-- Task
-
-- Priority
-
-- Deadline
-
-- Estimated duration
-
-
-
-Allow users to edit tasks and generated schedule items.
-
-
-
-Use a structured AI prompt that prioritises urgent and important tasks while creating a realistic and balanced schedule.
-
-
-
-AI Output Behaviour
-
-
-
-All generated AI content must be:
-
-
-
-- Editable
-
-- Easy to copy
-
-- Clearly organised
-
-- Professional
-
-- Concise
-
-- Easy to understand
-
-
-
-Include loading states while AI content is being generated and friendly error messages if generation fails.
-
-
-
-Responsible AI
-
-
-
-Add a visible disclaimer throughout the application:
-
-
-
-"AI-generated content may contain mistakes or omissions. Always review and verify AI outputs before sending emails, making decisions, or acting on recommendations."
-
-
-
-Important
-
-
-
-Do not add unnecessary features that require a backend or paid services.
-
-
-
-The final application should feel like a polished, professional productivity SaaS product while remaining simple, lightweight, responsive, and easy to use.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/1d460892-ea0c-4fb9-a0c3-632363642245).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+```bash
+npm install

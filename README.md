@@ -1,3 +1,6 @@
+Lovable Link - 🔗https://quick-work-aid.lovable.app
+
+
 # 🤖 AI Workplace Productivity Assistant
 
 ## 📋 Project Overview
